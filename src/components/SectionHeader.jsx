@@ -6,8 +6,8 @@ export default function SectionHeader() {
     return (
         <section id="section-header">
             <div>
-                <img  />
-                <h2>ACABAI</h2>
+                <h2>ACABAÍ</h2>
+                <h4>Aproveite o melhor antes que acabe!</h4>
             </div>
         </section>
     );
