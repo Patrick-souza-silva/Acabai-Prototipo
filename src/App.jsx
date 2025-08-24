@@ -1,4 +1,3 @@
-import Header from "../src/components/Header";
 import SectionHeader from "../src/components/SectionHeader";
 import Nav from "../src/components/Nav";
 import Catalogo from "../src/components/Catalogo";
@@ -93,7 +92,6 @@ function App() {
 
   return (
      <>
-      <Header />
       <SectionHeader />
       <Nav activeSection={activeSection} setActiveSection={setActiveSection} />
       <main>
