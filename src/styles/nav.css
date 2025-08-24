@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    padding: 0 20px;
+    z-index: 1000;
+    justify-content: space-around;
+    overflow-x: auto;           /* ativa o scroll horizontal */
+    white-space: nowrap;        /* impede quebra de linha */
+    scrollbar-width: none;      /* esconde a barra no Firefox */
+    -ms-overflow-style: none;   /* esconde no IE/Edge antigo */
+}
+
+nav::-webkit-scrollbar {
+    display: none;              /* esconde a barra no Chrome/Safari */
+}
+
+nav a {
+    display: inline-block;      /* necessário para funcionar com white-space: nowrap */
+    position: relative;
+    color: #777;
+    font-weight: 700;
+    padding: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0%;
+    height: 3px;
+    background-color: #c48f56;
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: #c48f56;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a.active {
+    color: #c48f56;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a.active::after {
+    width: 100%;
+}
