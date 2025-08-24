@@ -17,7 +17,7 @@
     left: -10px;
     width: calc(100% + 20px);
     height: calc(100% + 20px);
-    background-image: url('../assets/header.jpg');
+    background-image: url('../assets/fundo.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;
