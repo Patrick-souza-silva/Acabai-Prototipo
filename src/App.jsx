@@ -173,8 +173,8 @@ function App() {
             <Product
               title="Bolo Aleatório"
               validate="25/08/2025"
-              value="R$ 4,45"
-              oldValue="R$ 2,45"
+              oldValue="R$ 4,45"
+              value="R$ 2,45"
               unit={10}
               imageUrl={boloImg}
               productId='6'
@@ -199,8 +199,8 @@ function App() {
             <Product
               title="Cerveja Aleatória"
               validate="25/08/2025"
-              value="R$ 5,45"
-              oldValue="R$ 3,45"
+              value="R$ 3,45"
+              oldValue="R$ 5,45"
               imageUrl={bebidaImg}
               unit={10}
               productId={'11'}
@@ -214,8 +214,8 @@ function App() {
             <Product
               title="Óleo Aleatório"
               validate="25/08/2025"
-              value="R$ 7,65"
-              oldValue="R$ 4,45"
+              value="R$ 4,65"
+              oldValue="R$ 7,45"
               unit={10}
               imageUrl={oleo}
               productId={'12'}
