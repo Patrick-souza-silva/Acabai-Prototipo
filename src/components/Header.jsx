@@ -23,7 +23,7 @@ export default function Header() {
 
     return (
         <header className={isScrolled ? "scrolled" : ""}>
-            <h1>sfsfsdfs</h1>
+            <h1>ACABAI</h1>
         </header>
     );
 }
