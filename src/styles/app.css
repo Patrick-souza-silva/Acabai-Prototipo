@@ -40,11 +40,11 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #c48f56;
+    color: #ff8e4f;
 }
 
 footer a:hover {
-    color: #c48f56;
+    color: #ff8e4f;
 }
 
 ::-webkit-scrollbar {
@@ -52,10 +52,10 @@ footer a:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background: #412c0c;
+    background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #c48f56;
+    background: #ff8e4f;
     border-radius: 10px;
 }

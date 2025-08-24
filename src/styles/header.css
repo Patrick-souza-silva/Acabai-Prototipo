@@ -4,7 +4,7 @@ header {
     height: 4vh;
     display: flex;
     padding: 20px 20px;
-    background-color: #412c0c;
+    background-color: #ff8e4f;
     color: #fff;
     z-index: 999;
     transition: background-color 0.3s ease, padding 0.3s ease;

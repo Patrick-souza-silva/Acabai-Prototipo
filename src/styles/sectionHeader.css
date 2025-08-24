@@ -39,7 +39,7 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: transform 0.3s ease;
-    background-image: url('../assets/logo2.jpg');
+    /* background-image: url('../assets/logo2.jpg'); */
     border-radius: 10%;
 }
 

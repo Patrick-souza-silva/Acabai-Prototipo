@@ -88,7 +88,7 @@ export default function Product({ title, validate, imageUrl, oldValue, value, on
                     Valor sem desconto: {oldValue}
                 </h5>
                 <h4 style={{
-                    color: "#c48f56",
+                    color: "#ff8e4f",
                     fontSize: "1.2rem",
                     fontWeight: 800,
                     marginBottom: 0,
@@ -102,7 +102,7 @@ export default function Product({ title, validate, imageUrl, oldValue, value, on
                 onClick={onAddToCart}
                 style={{
                     marginTop: 8,
-                    background: "#c48f56",
+                    background: "#ff8e4f",
                     color: "#fff",
                     border: "none",
                     width: '90%',

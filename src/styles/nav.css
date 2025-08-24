@@ -38,12 +38,12 @@ nav a::after {
     bottom: 5px;
     width: 0%;
     height: 3px;
-    background-color: #c48f56;
+    background-color: #ff8e4f;
     transition: width 0.3s ease;
 }
 
 nav a:hover {
-    color: #c48f56;
+    color: #ff8e4f;
 }
 
 nav a:hover::after {
@@ -51,7 +51,7 @@ nav a:hover::after {
 }
 
 nav a.active {
-    color: #c48f56;
+    color: #ff8e4f;
     font-weight: bold;
     text-decoration: underline;
 }
